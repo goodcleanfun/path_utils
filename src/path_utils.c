@@ -1,4 +1,5 @@
 #include "path_utils.h"
+#include "char_array/char_array.h"
 
 bool is_relative_path(struct dirent *ent) {
     return strcmp(ent->d_name, ".") == 0 || strcmp(ent->d_name, "..") == 0;

@@ -1,14 +1,12 @@
-#ifndef FILE_UTILS_H
-#define FILE_UTILS_H
+#ifndef PATH_UTILS_H
+#define PATH_UTILS_H
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include <string.h>
+#include <stdarg.h>
 #include <stdbool.h>
 #include <sys/types.h>
-
-#include "char_array/char_array.h"
 
 #ifdef HAVE_DIRENT_H
 #include <dirent.h>
