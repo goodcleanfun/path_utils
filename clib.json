@@ -5,5 +5,8 @@
   "description": "Cross-platform utilities for manipulating file paths",
   "keywords": ["path", "os"],
   "license": "MIT",
+  "dependencies": {
+    "goodcleanfun/char_array": "*"
+  },
   "src": ["src/path_utils.h"]
 }
