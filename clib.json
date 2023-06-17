@@ -8,5 +8,5 @@
   "dependencies": {
     "goodcleanfun/char_array": "*"
   },
-  "src": ["src/path_utils.h"]
+  "src": ["src/path_utils.h", "src/path_utils.c"]
 }
