@@ -1,0 +1,9 @@
+{
+  "name": "path_utils",
+  "version": "0.1.0",
+  "repo": "goodcleanfun/path_utils",
+  "description": "Cross-platform utilities for manipulating file paths",
+  "keywords": ["path", "os"],
+  "license": "MIT",
+  "src": ["src/path_utils.h"]
+}
